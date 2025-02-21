@@ -76,7 +76,7 @@ GCC:*_*_AARCH64_CC_FLAGS = -DSILICON_PLATFORM=8998
   # Platform-specific
   gArmTokenSpaceGuid.PcdSystemMemorySize|0x80000000            # 2GB
 
-  gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"napali"
+  gAndromedaPkgTokenSpaceGuid.PcdABLProduct|"nazgul"
 
 [Components.common]
   # Graphics Driver
