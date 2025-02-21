@@ -1,14 +1,14 @@
 [Components.common]
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbInitDxe/UsbInitDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
 AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
 #MdeModulePkg/Core/Dxe/DxeMain.inf
@@ -81,5 +81,5 @@ NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Application/QcomChargerApp/Qc
 QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
 #QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxeLA.inf
 
-Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
 NapaliPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf

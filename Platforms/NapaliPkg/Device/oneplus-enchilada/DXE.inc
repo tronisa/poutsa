@@ -5,14 +5,14 @@
 #    SECTION RAW = NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/RawFiles/uefiplat.cfg
 #}
 
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
-#INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/PmicDxe/PmicDxeWp.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/AdapterInformationDxe/AdapterInformationDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/CPRDxe/CPRDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/OSConfigDxe/OSConfigDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/ShmBridgeDxe/ShmBridgeDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciPciEmulationDxe/XhciPciEmulationDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbPwrCtrlDxe/UsbPwrCtrlDxe.inf
+#INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/PmicDxe/PmicDxeWp.inf
 INF AndromedaPkg/Driver/SimpleFbDxe/SimpleFbDxe.inf
 
 #INF MdeModulePkg/Core/Dxe/DxeMain.inf
@@ -61,7 +61,7 @@ INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/ClockDxe/ClockDxe
 #INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/HALIOMMUDxe/HALIOMMUDxe.inf
 INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
 INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/GpiDxe/GpiDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
 INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
 INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
 #INF QcomPkg/Drivers/UFSDxe/UFSDxe.inf
@@ -90,34 +90,34 @@ INF NapaliPkg/Device/$(TARGET_DEVICE)/Binaries/QcomPkg/Application/QcomChargerAp
 
 # Patched Binaries
 INF QcomPkg/PatchedBinaries/HALIOMMUDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
-INF Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+INF Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
 INF NapaliPkg/Device/$(TARGET_DEVICE)/PatchedBinaries/ButtonsDxe.inf
 
 # DXE without depex
 FILE DRIVER = 6b38f7b4-ad98-40e9-9093-aca2b5a253c4 {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/DiskIoDxe/DiskIoDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/DiskIoDxe/DiskIoDxe.efi
     SECTION UI = "DiskIoDxe"
 }
 
 FILE DRIVER = 1fa1f39e-feff-4aae-bd7b-38a070a3b609 {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/PartitionDxe/PartitionDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/PartitionDxe/PartitionDxe.efi
     SECTION UI = "PartitionDxe"
 }
 
 FILE DRIVER = f09ad92e-4e91-490f-ab99-e69939b840b2 {
         SECTION UI = "LimitsDxe"
-        SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/LimitsDxe/LimitsDxe.efi
+        SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/LimitsDxe/LimitsDxe.efi
 }
 
 FILE DRIVER = 3adf8dda-1850-44c5-8c63-bb991849bc6f {
         SECTION UI = "HashDxe"
-        SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/HashDxe/HashDxe.efi
+        SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/HashDxe/HashDxe.efi
 }
 
 FILE DRIVER = b0d3689e-11f8-43c6-8ece-023a29cec35b {
         SECTION UI = "RngDxe"
-        SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/RNGDxe/RngDxe.efi
+        SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/RNGDxe/RngDxe.efi
 }
 
 FILE DRIVER = cccb0c28-4b24-11d5-9a5a-0090273fc14d {
@@ -136,22 +136,22 @@ FILE DRIVER = C2F9A4F5-F7B4-43E7-BA99-5EA804CC103A {
 }
 
 FILE DRIVER = B7F50E91-A759-412C-ADE4-DCD03E7F7C28 {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciDxe/XhciDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/XhciDxe/XhciDxe.efi
     SECTION UI = "XhciDxe"
 }
 
 FILE DRIVER = 240612B7-A063-11D4-9A3A-0090273FC14D {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbBusDxe/UsbBusDxe.efi
     SECTION UI = "UsbBusDxe"
 }
 
 FILE DRIVER = 2D2E62CF-9ECF-43B7-8219-94E7FC713DFE {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbKbDxe/UsbKbDxe.efi
     SECTION UI = "UsbKbDxe"
 }
 
 FILE DRIVER = 9FB4B4A7-42C0-4BCD-8540-9BCC6711F83E {
-    SECTION PE32 = Hoya/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.efi
+    SECTION PE32 = Napali/BOOT.XF.2.2-00101-SDM845WZB-1/QcomPkg/Drivers/UsbMassStorageDxe/UsbMassStorageDxe.efi
     SECTION UI = "UsbMassStorageDxe"
 }
 
